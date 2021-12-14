@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@import url(https://fonts.googleapis.com/icon?family=Material+Icons);
+.containerr {
+    /* The image used */
+    background-image: url('Ashesi_Student_Council.jpg');
+}
+
+.navbar {
+    background: #1190CB;
+    -o-transition: all 0.6s;
+    -moz-transition: all 0.6s;
+    -webkit-transition: all 0.6s;
+    -ms-transition: all 0.6s;
+    transition: all 0.6s;
+    backface-visibility: hidden;
+}
+
+.logo {
+    height: 40px;
+    width: auto;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    max-width: 900px;
+    height: 550px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    margin: 50px auto;
+    box-shadow: 0 8px 20px 0px #1f1f1f1a;
+    overflow: hidden;
+}
+
+.wrapper .form-left {
+    background: rgb(255, 255, 255);
+    margin-top: 25px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 20px 40px;
+    position: relative;
+    width: 100%;
+    color: #fff;
+    height: 600px;
+}
+
+.btn-primary {
+    background-color: #1190CB;
+    color: #ffffff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 125px;
+}
+
+.btn-primary:hover {
+    background-color: rgb(238, 229, 229);
+    color: #1190CB;
+}
+
+.wrapper h2 {
+    font-weight: 700;
+    font-size: 25px;
+    padding: 5px 0 0;
+    margin-bottom: 34px;
+    pointer-events: none;
+}
+
+.wrapper .form-right p {
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.5;
+    pointer-events: none;
+    text-align: center;
+}
+
+.wrapper .form-right .text {
+    margin: 20px 0 25px;
+}
+
+.wrapper .form-right p span {
+    font-weight: 700;
+}
+
+.wrapper .form-right input {
+    padding: 15px;
+    background: #fff;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 180px;
+    border: none;
+    margin: 15px 0 50px 0px;
+    cursor: pointer;
+    color: #333;
+    font-weight: 700;
+    font-size: 0.9rem;
+    appearance: unset;
+    outline: none;
+}
+
+
+.wrapper .form-right {
+    margin-top: 25px;
+    padding: 20px 40px;
+    position: relative;
+    width: 100%;
+}
+
+.wrapper .form-right h2 {
+    text-align: center;
+    color: #000000;
+}
+
+
+.wrapper a {
+    text-decoration: none;
+}
+
+@media (max-width: 860.5px) {
+    .wrapper {
+        margin: 50px 5px;
+    }
+}
+
+@media (max-width: 767.5px) {
+    .wrapper {
+        flex-direction: column;
+        margin: 30px 20px;
+    }
+    .wrapper .form-left {
+        border-bottom-left-radius: 0px;
+    }
+}
+
+@media (max-width: 575px) {
+    .wrapper {
+        margin: 30px 15px;
+    }
+    .wrapper .form-left {
+        padding: 25px;
+    }
+    .wrapper .form-right {
+        padding: 25px;
+    }
+}
+
+
+.material-icons {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.page-footer {
+    background-color: #222;
+    color: #ccc;
+    padding: 60px 0 30px;
+    margin-top: 45px;
+}
+
+.footer-copyright {
+    color: #666;
+    padding: 40px 0;
+}
